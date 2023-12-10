@@ -18,7 +18,9 @@ In this edition, we are inspectors. The only information we have is the username
 ### Solution
 
 The challenge provides you with a username. The first natural step is to look that up on social media. 
+
 You can do it manually or install [Sherlock](https://github.com/sherlock-project/sherlock) and execute the following command: `python3 sherlock.py dr1zzyju1ce`. 
+
 There, you'll find a GitHub account with an interesting projects section, providing a hint on where to search next based on his profile picture.
 
 The next step is to reverse search the image either with `Yandex` or `Google Images`. 
@@ -35,13 +37,17 @@ We have another username `sw1ft1eesw1ft` and need to find out where a meet is ta
 ### Solution
 
 The search results give us a [Twitter account](https://twitter.com/sw1ft1eesw1ft).
+
 We find a user URL id `31ddw65lujcwhd4shqsgtrnzd23i` and save it for later use. 
+
 Now we need to find the "user's favorite website," which can be found by exploring the Twitter account and discovering that this user is engaging with Spotify-related posts.
 
 Now we need to find the format of the URL to see the user's account. Clicking on your own profile, you'll find the URL like this: `https://open.spotify.com/user/sa6hw2f0j70354v0p138wklvw`. Replace the id we already got to get this URL: `https://open.spotify.com/user/31ddw65lujcwhd4shqsgtrnzd23i`.
 
 Next, we can only find a playlist. Looking at its [content](https://open.spotify.com/playlist/424EqFwanMCT5g6lK6FieN),
+
 it looks like a message: `Hey ya let's do this together. Let's meet soon. Come Here: Costumes, Layered, Lonely`.
+
 and the location we're looking for is ciphered in these 3 words.
 
 Searching for a 3-word location, you'll find this website [What3words](https://what3words.com/).
@@ -62,9 +68,13 @@ When you first look at the file, you'll notice a lot of whitespaces, but they va
 This is when you consider it could be a cipher. Taking that number to [dcode.fr](https://www.dcode.fr/cipher-identifier) will help you get some results. It's a [Whitespace Language](https://www.dcode.fr/whitespace-language) indeed.
 
 The results will be a URL of a chess game: `https://lichess.org/HSdduVhX`. 
+
 For anyone who has played chess, you'll notice that this game is not a real game; it's random.
+
 That's why we start checking for any information that can help us online. 
+
 Searching `chess stego`, you'll find this [website](https://incoherency.co.uk/chess-steg/), and it needs the game moves to decode.
+
 Lichess has its moves noted down below so you're good to go.
 
 You decode it to get the flag location: `isi_blocC_n404`.
@@ -84,6 +94,7 @@ The hunt starts with finding what kaos pad means.
 After some research, you'll come across this [chaospad](https://pads.ccc.de/), as it was quite popular back in the day. 
 
 Again, using the same methodology, we need to find how the pads are shown. We try to create a new one to get the URL we are looking for: `https://pads.ccc.de/U9aRIe5YAn`. 
+
 We change the id again, but this time we get this error: `Oops! A server error occurred. It's been logged. Please email <support@etherpad.com> if this persists`.
 
 We poke around more on the website and try to share a pad to find that it's not the same URL format for read-only pads: `https://pads.ccc.de/ep/pad/view/ro.XJR3AU8u3rC/latest`. 
@@ -136,5 +147,6 @@ Again reading something this gibberish means only one thing. That it's a cipher!
 We search spam cipher and you'll get [spammimic](https://www.spammimic.com/) where you can decode the spam text you get `mhamdia` as a result. 
 Flag: `Securinets{mahmdia}`
 
-Long work but you need to have a methodology even in searching for infos
+Long work but you need to have a methodology even in searching for infos.
+
 Thanks.
