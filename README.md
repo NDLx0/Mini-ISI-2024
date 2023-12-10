@@ -1,7 +1,7 @@
 # Osint/Misc-miniCTF
 
 
-### Challenge Group | OSINT | 2000 points
+### Challenge Group | OSINT/MISC | 2000 points
 
 - [Young Prodigy - 500 points](#Young-Prodigy--500-pts)
 - [Rap Battle - 500 points](#Rap-Battle--500-pts)
