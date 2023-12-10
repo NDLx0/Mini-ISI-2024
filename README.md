@@ -1,4 +1,4 @@
-# OSINT-miniCTF
+# Osint/Misc-miniCTF
 
 Here are the official write-ups for the OSINT miniCTF ISI:
 
