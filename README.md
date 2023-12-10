@@ -5,9 +5,9 @@ Here are the official write-ups for the OSINT miniCTF ISI:
 ### Challenge Group | OSINT | 5900 points
 
 - [Young Prodigy - 500 points](#Young-Prodigy--500-pts)
-- [Rap Battle - 500 points](#Rap-Battle-10--500-pts)
-- [Meet #2 - 500 points](#Meet-2--500-pts)
-- [Meet #3 - 500 points](#Meet-3--500-pts)
+- [Rap Battle - 500 points](#Rap-Battle--500-pts)
+- [Meet #2 - 500 points](#Meet-#2--500-pts)
+- [Meet #3 - 500 points](#Meet-#3--500-pts)
 
 ## Young Prodigy | 500 pts
 
