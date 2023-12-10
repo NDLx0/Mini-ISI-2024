@@ -6,8 +6,8 @@ Here are the official write-ups for the OSINT miniCTF ISI:
 
 - [Young Prodigy - 500 points](#Young-Prodigy--500-pts)
 - [Rap Battle - 500 points](#Rap-Battle--500-pts)
-- [Meet #2 - 500 points](#Meet-#2--500-pts)
-- [Meet #3 - 500 points](#Meet-#3--500-pts)
+- [Meet #2 - 500 points](#Meet-2--500-pts)
+- [Meet #3 - 500 points](#Meet-3--500-pts)
 
 ## Young Prodigy | 500 pts
 
@@ -41,7 +41,7 @@ Now search with the 3 words you got to finally get the location, which is `cafe 
 
 Flag: `Securinets{cafe_noir}`.
 
-## Meet #2 | 500 pts
+## Meet 2 | 500 pts
 
 ### Task
 
@@ -57,7 +57,7 @@ You decode it to get the flag location: `isi_blocC_n404`.
 
 Flag: `Securinets{isi_blocC_n404}`.
 
-## Meet #3 | 500 pts
+## Meet 3 | 500 pts
 
 ### Task
 
