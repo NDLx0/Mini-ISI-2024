@@ -61,8 +61,10 @@ We got a [file](file.txt) and need to find the second location of the meeting.
 When you first look at the file, you'll notice a lot of whitespaces, but they vary on each line. 
 This is when you consider it could be a cipher. Taking that number to [dcode.fr](https://www.dcode.fr/cipher-identifier) will help you get some results. It's a [Whitespace Language](https://www.dcode.fr/whitespace-language) indeed.
 
-The results will be a URL of a chess game: `https://lichess.org/HSdduVhX`. For anyone who has played chess, you'll notice that this game is not a real game; it's random.
-That's why we start checking for any information that can help us online. Searching `chess stego`, you'll find this [website](https://incoherency.co.uk/chess-steg/), and it needs the game moves to decode.
+The results will be a URL of a chess game: `https://lichess.org/HSdduVhX`. 
+For anyone who has played chess, you'll notice that this game is not a real game; it's random.
+That's why we start checking for any information that can help us online. 
+Searching `chess stego`, you'll find this [website](https://incoherency.co.uk/chess-steg/), and it needs the game moves to decode.
 Lichess has its moves noted down below so you're good to go.
 
 You decode it to get the flag location: `isi_blocC_n404`.
