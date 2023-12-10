@@ -40,8 +40,9 @@ Now we need to find the "user's favorite website," which can be found by explori
 
 Now we need to find the format of the URL to see the user's account. Clicking on your own profile, you'll find the URL like this: `https://open.spotify.com/user/sa6hw2f0j70354v0p138wklvw`. Replace the id we already got to get this URL: `https://open.spotify.com/user/31ddw65lujcwhd4shqsgtrnzd23i`.
 
-Next, we can only find a playlist. Looking at its [content](https://open.spotify.com/playlist/424EqFwanMCT5g6lK6FieN), it looks like a message: `Hey ya let's do this together. Let's meet soon. Come Here: Costumes, Layered, Lonely`.
-It looks like the location we're looking for is ciphered in these 3 words.
+Next, we can only find a playlist. Looking at its [content](https://open.spotify.com/playlist/424EqFwanMCT5g6lK6FieN),
+it looks like a message: `Hey ya let's do this together. Let's meet soon. Come Here: Costumes, Layered, Lonely`.
+and the location we're looking for is ciphered in these 3 words.
 
 Searching for a 3-word location, you'll find this website [What3words](https://what3words.com/).
 
